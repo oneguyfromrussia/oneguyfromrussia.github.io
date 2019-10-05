@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My site</title>
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="section">
+      <div class="container">
+        <!--первый row (строка) под заголовок-->
+        <div class="row">
+          <div class="col-lg-6 offset-lg-3">
+            <!--Центрируем текст внутри колонки с помощью .text-center -->
+            <h1 class="header text-center">
+              <span>Получите видео-инструкцию</span>
+              <strong class="text-uppercase"
+                >Как заработать свой первый миллион</strong
+              >
+            </h1>
+          </div>
+        </div>
+        <!--второй row (строка) под видео и форму-->
+        <div class="row">
+          <div class="col-lg-6 offset-lg-1 col-md-8 offset-md-2">
+            <div class="video">
+              <!-- Ширину объекта устанавливаем на 100%, т.к. нам нужно что бы он подстраивался под ширину колонки, задоной bootstrap-->
+              <iframe
+                width="100%"
+                height="315"
+                src="https://www.youtube.com/embed/53UnXy-V-WQ"
+                frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+          <div class="col-lg-4 offset-lg-0 col-md-8 offset-md-2">
+            <div class="form">
+              <p class="form-header text-center">Введите email</p>
+              <form action="#">
+                <input
+                  type="text"
+                  class="form-control form-control-lg"
+                  placeholder="Ваше имя"
+                />
+                <input
+                  type="email"
+                  class="form-control form-control-lg"
+                  placeholder="Ваш e-mail"
+                />
+                <!-- .btn-block позволяет кнопке растянуться по размеру всего блока и стать блочным элементом -->
+                <button
+                  class="btn btn-primary btn-lg btn-block form-button"
+                  type="submit"
+                >
+                  Получить инструкцию
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="section">
+      <div class="container">
+        <!-- row под заголовок секции-->
+        <div class="row">
+          <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            <h2 class="section-header text-center text-uppercase">
+              Почему нужно сделать это сейчас?
+            </h2>
+          </div>
+        </div>
+        <!-- Блок с "преимуществами" -->
+        <div class="feature text-center">
+          <div class="row">
+            <div class="col-lg-3 col-6 col-md-3 col-sm-6">
+              <div class="feature-box">
+                <img
+                  src="http://cdn.onlinewebfonts.com/svg/img_470621.png"
+                  alt="Преимущество1"
+                />
+                <p>Первое преимущество</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6 col-md-3 col-sm-6">
+              <div class="feature-box">
+                <img
+                  src="http://cdn.onlinewebfonts.com/svg/img_328914.png"
+                  alt="Преимущество2"
+                />
+                <p>Второе преимущество</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6 col-md-3 col-sm-6">
+              <div class="feature-box">
+                <img
+                  src="https://i.ya-webdesign.com/images/travel-icon-png-14.png"
+                  alt="Преимущество3"
+                />
+                <p>Третье преимущество</p>
+              </div>
+            </div>
+            <div class="col-lg-3 col-6 col-md-3 col-sm-6">
+              <div class="feature-box">
+                <img
+                  src="http://cdn.onlinewebfonts.com/svg/img_28556.png"
+                  alt="Преимущество4"
+                />
+                <p>Четвертое преимущество</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="from-button2">
+          <div class="row">
+            <div class="col-lg-12 text-center">
+              <button
+                class="btn btn-outline-primary btn-lg form-button2"
+                type="submit"
+              >
+                Получить инструкцию
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
